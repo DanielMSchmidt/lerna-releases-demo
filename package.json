@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "release": "echo 'TBD'"
   },
   "author": "",
