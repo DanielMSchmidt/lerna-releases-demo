@@ -7,3 +7,4 @@ script:
   - git remote set-url origin "https://${GH_TOKEN}@github.com/DanielMSchmidt/lerna-releases-demo.git" > /dev/null 2>&1
   - git checkout ${TRAVIS_BRANCH}
   - npm run release
+  - git push origin master --force-with-lease
