@@ -3,5 +3,5 @@
 module.exports = sharedLibrary;
 
 function sharedLibrary() {
-  console.log("I'm a shared library");
+  console.log("I'm a shared library - oh yes");
 }
