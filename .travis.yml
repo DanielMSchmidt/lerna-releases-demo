@@ -2,5 +2,8 @@ language: node_js
 node_js:
   - node
 script:
+  - git config --global user.email ${GITHUB_EMAIL}
+  - git config --global user.name ${GITHUB_USER}
+  - git remote set-url origin "https://${GH_TOKEN}@github.com/DanielMSchmidt/lerna-releases-demo.git" > /dev/null 2>&1
   - git checkout ${TRAVIS_BRANCH}
   - npm run release
