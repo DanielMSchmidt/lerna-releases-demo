@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = sharedLibrary;
 
 function sharedLibrary() {
-    // TODO
+  console.log("I'm a shared library");
 }
