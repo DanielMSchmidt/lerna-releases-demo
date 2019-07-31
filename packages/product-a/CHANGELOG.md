@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.1](https://github.com/DanielMSchmidt/lerna-releases-demo/compare/product-a@10.0.0...product-a@10.0.1) (2019-07-31)
+
+
+### Bug Fixes
+
+* urgent issue in 10.0.0 ([1ee351e](https://github.com/DanielMSchmidt/lerna-releases-demo/commit/1ee351e))
+
+
+
+
+
 # [10.0.0](https://github.com/DanielMSchmidt/lerna-releases-demo/compare/product-a@1.1.1...product-a@10.0.0) (2019-07-31)
 
 
