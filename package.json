@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "lerna bootstrap",
-    "release": "lerna version --conventional-commits --amend --create-release github -y"
+    "release": "lerna version --conventional-commits -m 'chore(release): publish [skip ci]' --create-release github -y"
   },
   "author": "",
   "license": "ISC",
