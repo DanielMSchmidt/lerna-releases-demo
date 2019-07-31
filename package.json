@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "lerna bootstrap",
-    "release": "echo 'TBD'"
+    "release": "lerna version --conventional-commits --create-release github"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@semantic-release/exec": "^3.3.5",
     "lerna": "^3.16.4"
   }
 }
