@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 module.exports = productA;
 
 function productA() {
-    // TODO
+  console.log("I'm A");
 }
